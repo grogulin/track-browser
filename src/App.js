@@ -16,7 +16,7 @@ function LoadTracks() {
 const [items, setItems] = useState([]);
 
 useEffect(() => {
-  fetch('http://5.61.61.212:9900/tracks')
+  fetch('https://5.61.61.212:9900/tracks')
     .then(response => response.json())
     .then(data => setItems(data));
 }, []);
