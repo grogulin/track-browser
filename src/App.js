@@ -26,10 +26,6 @@ return (<ShowCard array={items} />)
 }
 
 
-function simulateNetworkRequest() {
-  return new Promise((resolve) => setTimeout(resolve, 2000));
-}
-
 
 
 function App() {
